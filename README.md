@@ -92,13 +92,8 @@ Todas las demas variables de entorno dejarlas tal y como están.
 php artisan migrate
 ```
 
-11 Realizar la migracion
 
-```bash
-php artisan migrate
-```
-
-12 Ingresar los seeders
+11 Ingresar los seeders
 
 ```bash
 php artisan db:seed
