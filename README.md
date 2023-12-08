@@ -98,3 +98,7 @@ php artisan migrate
 ```bash
 php artisan db:seed
 ```
+---
+### Diagrama de base de datos
+
+![App Screenshot](https://i.imgur.com/S1BtvhA.png)
