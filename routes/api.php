@@ -53,7 +53,7 @@ Route::prefix('rol')->group(function () {
     Route::get('/{rol}', [RolController::class, 'show'])->middleware(['jwt.verify','verify.permiso:SHOW_ROL']);
     Route::post('/', [RolController::class, 'store'])->middleware(['jwt.verify','verify.permiso:CREATE_ROL']);
     Route::put('/{rol}', [RolController::class, 'update'])->middleware(['jwt.verify','verify.permiso:UPDATE_ROL']);
-    Route::delete('/{rol}', [RolController::class, 'destroy'])->middleware(['jwt.verify','verify.permiso:DESTROY_ROL']); 
+    Route::delete('/{rol}', [RolController::class, 'destroy'])->middleware(['jwt.verify','verify.permiso:DESTROY_ROL']);
 });
 
 Route::prefix('permiso_rol')->group(function () {
